@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">JsonTest</string>
+    <string name="url_base">https://api.myjson.com/</string>
+</resources>
