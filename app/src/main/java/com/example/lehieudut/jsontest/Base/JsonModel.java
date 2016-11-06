@@ -1,6 +1,6 @@
 package com.example.lehieudut.jsontest.Base;
 
-import com.google.gson.annotations.SerializedName;
+import java.util.List;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -17,12 +17,13 @@ import lombok.EqualsAndHashCode;
 //        "tags": ["home", "green"]
 //        }
 @Data
-@EqualsAndHashCode
+@EqualsAndHashCode(callSuper = false)
 public class JsonModel {
-    @SerializedName("id")
-    private int id;
-    @SerializedName("name")
-    private String name;
-    @SerializedName("price")
-    private String price;
+    private List<Photos> photos;
+
+    @Data
+    public  class Photos {
+        private String image;
+        private String name;
+    }
 }

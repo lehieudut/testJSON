@@ -1,4 +1,28 @@
 <resources>
     <string name="app_name">JsonTest</string>
     <string name="url_base">https://api.myjson.com/</string>
+
+    <string name="mihee">http://i.imgur.com/kIwiHL1.jpg</string>
+    <string name="yunmi">http://i.imgur.com/gvdtpTb.jpg</string>
+    <string name="gauenun">http://static.redflava.com/images/2015/jan/16/HGE160115/Han_Ga_Eun_160115_002.jpg</string>
+    <string name="leespm">http://myfavorites.jonai.net/Korean/Lee_Eun-Hye/Simple_White_Top_with_Jeans/Lee-Eun-Hye-Simple-White-Top-With-Jeans-14.jpg</string>
+
+    <string name="mihee_name">Hwang mi hee</string>
+    <string name="yunmi_name">yun mi</string>
+    <string name="gaeun_name">Ga Eun</string>
+    <string name="leespm_name">Lee Sin</string>
+
+    <string-array name="image_Array">
+        <item>@string/mihee</item>
+        <item>@string/yunmi</item>
+        <item>@string/gauenun</item>
+        <item>@string/leespm</item>
+    </string-array>
+
+    <string-array name="name_Array">
+        <item>@string/mihee_name</item>
+        <item>@string/yunmi_name</item>
+        <item>@string/gaeun_name</item>
+        <item>@string/leespm_name</item>
+    </string-array>
 </resources>
